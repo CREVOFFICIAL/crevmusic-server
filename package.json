@@ -1,0 +1,23 @@
+{
+  "name": "crevmusic-server",
+  "version": "0.0.1",
+  "description": "crevmusic-server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon run server.js"
+  },
+  "keywords": [
+    "soundcloud",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Playlists"
+  ],
+  "author": "crevteam",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11"
+  }
+}
